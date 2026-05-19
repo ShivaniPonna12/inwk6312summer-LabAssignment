@@ -1,0 +1,9 @@
+from netmiko import Netmiko
+device = {"device_type": "cisco_ios",
+          "ip": "192.168.1.101",
+          "username": "student",
+          "password": "Meilab123",
+          net_connect.disconnect()
+print(type(output))"port": "22"}
+net_connect = Netmiko(**device)
+output = net_connect.send_command("show ip interface brief")
