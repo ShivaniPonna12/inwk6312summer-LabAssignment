@@ -1,0 +1,12 @@
+hostname {{ device.name }}
+
+{% for intf in device.interfaces %}
+interface {{ intf.intf }}
+ ip address {{ intf.ip }} {{ intf.mask }}
+ no shutdown
+{% endfor %}
+
+{% for lo in device.loopbacks %}
+interface {{ lo.name }}
+ ip address {{ lo.ip }} 255.255.255.255
+{% endfor %}

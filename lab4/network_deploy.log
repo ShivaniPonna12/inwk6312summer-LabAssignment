@@ -1,0 +1,6 @@
+INFO - Connecting to R1 (192.168.1.101)
+INFO - Config pushed successfully to R1
+ERROR - Error on R2: timeout
+2026-05-19 15:38:02,713 - INFO - Connecting to R1 (192.168.1.101)
+2026-05-19 15:38:02,718 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-05-19 15:38:03,262 - INFO - Authentication (password) successful!
